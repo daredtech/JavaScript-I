@@ -97,7 +97,7 @@ console.log(carYears);
 let oldCars = [];
 var x = 0;
 for (let i = 0; i < inventory.length; i++) {
-  if(inventory[i].car_year > 2000){
+  if(inventory[i].car_year < 2000){
     oldCars[x] = inventory[i];
     x++;
   }
